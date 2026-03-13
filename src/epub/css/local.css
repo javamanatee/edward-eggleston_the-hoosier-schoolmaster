@@ -18,6 +18,14 @@ p[epub|type~="z3998:salutation"]{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+
+header{
+	text-align:initial;
+}
+
+#chapter-27 [epub|type~="z3998:recipient"]{
+	font-variant: small-caps;
+}
 /* end letters */
 
 /* song and verse */
