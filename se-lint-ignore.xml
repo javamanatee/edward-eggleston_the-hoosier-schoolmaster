@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-3.xhtml">
+		<ignore code="t-008">
+			<reason>Repeated apostrophes are an elision followed by closing inner quote.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-26.xhtml">
+		<ignore code="t-029">
+			<reason>This is not an abbreviation, but a misspelling by the letter's author.</reason>
+		</ignore>
+		<ignore code="y-035">
+			<reason>The single letter is a misspelling by the letter's author.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
