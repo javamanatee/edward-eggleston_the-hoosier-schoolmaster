@@ -29,6 +29,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Hoosier Schoolmaster</dc:title>
 		<meta property="file-as" refines="#title">Hoosier Schoolmaster, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Story of Backwoods Life in Indiana</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of Backwoods Life in Indiana, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Hoosier Schoolmaster: A Story of Backwoods Life in Indiana</dc:title>
+		<meta property="file-as" refines="#fulltitle">Hoosier Schoolmaster, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Teachers -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCHS</meta>
 		<meta property="term" refines="#subject-1">sh2008112613</meta>
@@ -38,43 +45,48 @@
 		<dc:subject id="subject-3">Country homes -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCHS</meta>
 		<meta property="term" refines="#subject-3">sh2008100220</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A young man takes on a difficult teaching assignment in rural Indiana.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Ralph Hartsook has taken a teaching job in Flat Creek. It is a rough assignment—the last few teachers quit after being beat up, or “licked,” by the stronger pupils. Ralph meets Bud Jones, one of the biggest and toughest pupils, who warns him how tough it will be to keep the school in order. Ralph quickly decides he will have to win Bud over to his side. As events develop, Ralph notices Hannah, a young “bound” servant woman to the Jones family. Just as he starts to take a romantic interest, there is a midnight burglary. Circumstances, and some conniving by corrupt officials, cause suspicion to fall on the schoolmaster. Ralph must enlist the aid of those still loyal to him and reveal the true culprits, and save his friends who are caught up in the corruption.&lt;/p&gt;
+			&lt;p&gt;There is a lot of local dialect, and in later editions the author adds footnotes, some long and descriptive, on the development of these rural speech patterns. &lt;a href="https://standardebooks.org/ebooks/edward-eggleston"&gt;Edward Eggleston&lt;/a&gt; felt that there was plenty of literature based on the culture back east, and wanted to portray life in the backwoods of what were then considered the western states. Eggleston went on to write several more novels in this style, always employing local dialect.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15099</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!-- 1913 edition, all chapters -->
+		<dc:source>https://archive.org/details/bwb_W9-CZP-521</dc:source>
+		<!-- 1871 edition, Preface -->
+		<dc:source>https://archive.org/details/hoosierschoolmas00egglrich</dc:source>
+		<meta property="se:production-notes">Took the complete original preface from 1871 edition and cut the library edition preface.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Hoosier_Schoolmaster</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Hoosier_Schoolmaster_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-eggleston_the-hoosier-schoolmaster</meta>
 		<dc:creator id="author">Edward Eggleston</dc:creator>
 		<meta property="file-as" refines="#author">Eggleston, Edward</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edward_Eggleston</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50031795</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">George Henry Durrie</dc:contributor>
+		<meta property="file-as" refines="#artist">Durrie, George Henry</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Henry_Durrie</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr00038470</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Juliet, Sutherland</meta>
+		<meta property="file-as" refines="#transcriber-1">Sutherland, Juliet</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Charlie Kirschner</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Charlie, Kirschner</meta>
+		<meta property="file-as" refines="#transcriber-2">Kirschner, Charlie</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://jasonlivermore.wordpress.com/ebooks</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
