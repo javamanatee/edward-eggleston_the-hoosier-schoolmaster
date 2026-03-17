@@ -20,7 +20,7 @@ p[epub|type~="z3998:salutation"]{
 }
 
 header{
-	text-align:initial;
+	text-align: initial;
 }
 
 #chapter-27 [epub|type~="z3998:recipient"]{
