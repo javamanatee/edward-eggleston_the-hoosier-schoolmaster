@@ -30,13 +30,15 @@ header{
 
 /* song and verse */
 [epub|type~="z3998:verse"] p,
-[epub|type~="z3998:song"] p{
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:hymn"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p > span,
-[epub|type~="z3998:song"] p > span{
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:hymn"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
