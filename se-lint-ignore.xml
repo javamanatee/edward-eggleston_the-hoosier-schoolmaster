@@ -2,15 +2,24 @@
 <se-lint-ignore>
 	<file path="chapter-3.xhtml">
 		<ignore code="t-008">
+			<line>19</line>
 			<reason>Repeated apostrophes are an elision followed by closing inner quote.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-26.xhtml">
 		<ignore code="t-029">
+			<line>16</line>
 			<reason>This is not an abbreviation, but a misspelling by the letter's author.</reason>
 		</ignore>
 		<ignore code="y-035">
+			<line>16</line>
 			<reason>The single letter is a misspelling by the letter's author.</reason>
+		</ignore>
+	</file>
+	<file path="endnotes.xhtml">
+		<ignore code="y-031">
+			<line>31</line>
+			<reason>The quotes here are to emphasize words used as words, not dialog.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
